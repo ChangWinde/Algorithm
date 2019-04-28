@@ -1,1 +1,6 @@
-some record about algorithm
+# 说明
+这个项目主要是包含一些在复习机试的过程中，写过的一些题目
+# 主要内容
+- 公司机试题目
+- 高校复试题目
+- leetcode
