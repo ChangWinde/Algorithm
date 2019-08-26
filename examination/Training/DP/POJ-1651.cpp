@@ -21,7 +21,7 @@ int main() {
 			cin >> A[i];
 		}
 		vector<vector<int>> dp(n - 1, vector<int>(n - 1, MAX));
-		for (int i = 1; i <= n - 1; ++i) {
+		for (int i = 1; i <= n-1; ++i) {
 			for (int j = 0; j + i <= n - 1; ++j) {
 				if (i == 1)
 					dp[j][i + j - 1] = 0;

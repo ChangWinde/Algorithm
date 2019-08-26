@@ -1,0 +1,17 @@
+图: 
+(1)dfs+bfs
+(2)地杰斯特拉 
+(3)MST
+poj1789,poj2485,poj1258,poj3026,poj1860,
+poj3259,poj1062,poj2253,poj1125,poj2240
+搜索：bfs+dfs
+poj2488,poj3083,poj2251,poj3126,poj3087
+poj3278,poj1426,poj3009,poj1321,poj3414 
+dp
+背包 最长上子序列 最大子段和 最长公共子串 矩阵连乘
+poj1837,poj1276,poj3267,poj1836,poj1260,poj2533
+暴力：
+(1)枚举
+(2)贪心
+(3)回溯
+poj1328,poj2109,poj2586,poj1753,poj2965 

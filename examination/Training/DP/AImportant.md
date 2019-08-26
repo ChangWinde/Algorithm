@@ -15,8 +15,7 @@
 //一维情况
     vector<int> dp(C+1, 0);
     for (int i = 1; i <= n; ++i) {
-        for (int j = C; j >= 0; --j) {
-            if (j >= v[i])
+        for (int j = C; j >= v[i]; --j) {
                 dp[j] = max(dp[j], dp[j - v[i]] + w[i]);
         }
     }
@@ -30,8 +29,7 @@
     //要求正好装满  dp[0]<-0,dp[1->C]<-(-INF)
     vector<int> dp(C+1, 0);
     for (int i = 1; i <= n; ++i) {
-        for (int j = 0; j <= C; ++j) {
-            if (j >= v[i])
+        for (int j = v[i]; j <= C; ++j) {
                 dp[j] = max(dp[j], dp[j - v[i]] + w[i]);
         }
     }
